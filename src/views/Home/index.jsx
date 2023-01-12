@@ -11,7 +11,7 @@ export default function Home(){
                         <p className="button-text">¡Has tu placa YA!</p>
                     </a>
                 </div>
-                <img src={assets.womenImage} alt="" className="md:w-1/2 object-cover w-full drop-shadow-2xl" />
+                <img src={assets.solidarityPana} alt="" author="https://storyset.com/team" className="md:w-1/2 object-cover w-full drop-shadow-2xl" />
             </div>
             <div className="my-16 flex flex-col gap-10">
                 <h2 className="title-regular text-center">¿Qué podrias <span className="text-custom-gradient"> hacer con </span> tu placa?</h2>
