@@ -1,9 +1,30 @@
-https://www.flaticon.es/icono-gratis/ondas-sonoras_709559?related_id=709559
+# Documentation
 
- https://github.com/soub4i/react-spotifycode
- https://www.spotifycodes.com/#
+## Dev commants
+* ``npm install``
+* ``npm run dev``
 
- https://scannables.scdn.co/uri/plain/${format}/${backgroundColor}/${barColor}/${size}/${code}
-   format: 'jpeg', backgroundColor: '000', barColor: 'black', size: 640
+## Server commants
+* ``npm install``
+* ``npm run build``
+* Publish directory ``./dist``
 
- Example https://scannables.scdn.co/uri/plain/jpeg/000/white/500/spotify:album:3UIdh1xeV6hqlfhmimFkWx
+## Config the environment variables
+* Create a ``.env.local`` file and add yours credentials.
+* Is important that the variables start with VITE_
+* Credentials for spotify API:
+  * These credentials are fake, is only an example.
+```
+  VITE_CLIENT_ID = '54554861237832153521'
+  VITE_CLIENT_SECRET = '4664846ssxzxxzc78'
+  VITE_API = 'API of spotify'
+```
+![Image of a example of how to found the temporal token on spotify API](./src/assets/all/gets_songs.png)
+
+## Git metodology 
+
+Explicar la metodologia de git con graficos y todo
+
+## Overview
+
+## Built With
