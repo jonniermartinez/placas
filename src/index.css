@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .primary-bg-color{
     @apply bg-black text-white;
 }
@@ -22,4 +23,10 @@
 }
 .input{
    @apply border p-3;
+}
+.title{
+    @apply title-regular text-center mb-10;
+}
+.section{
+    @apply my-16;
 }
