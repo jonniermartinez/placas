@@ -28,7 +28,11 @@ export default function Navigation() {
       >
         {/* Desktop menu */}
         <div className={"mx-auto flex w-full max-w-6xl justify-between"}>
-          <img src={assets.logo} alt="logo" className="w-12 object-contain rounded-full" />
+          <img
+            src={assets.logo}
+            alt="logo"
+            className="w-12 object-contain rounded-full"
+          />
           <div className="my-auto w-1/2 max-md:hidden">
             <div className="container flex items-center justify-between gap-5">
               <NavigationList />
@@ -47,8 +51,8 @@ export default function Navigation() {
               ></path>
             </svg>
           </button>
-          <a className="button max-md:hidden my-auto">
-            <p className="button-text">¡Has tu placa ya!</p>
+          <a className="button max-md:hidden my-auto" id="#haz-tu-placa">
+            <p className="button-text">¡Haz tu placa ya!</p>
           </a>
         </div>
         {/* view of menu opened */}

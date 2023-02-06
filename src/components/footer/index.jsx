@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="w-1/2 ">
           <p className="text-center">
             Dedicale la mejor canción a esa persona tan especial y regala un
-            recuerdo unico. ¡Podrás scanearla para escucharla en Spotify! El
+            recuerdo único. ¡Podrás scanearla para escucharla en Spotify! El
             Regalo Perfecto.
           </p>
         </div>

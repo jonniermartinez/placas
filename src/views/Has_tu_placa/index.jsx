@@ -4,7 +4,7 @@ import AlbumDataProvider from "../../context/albumContext";
 
 export default function HastuPlaca() {
   return (
-    <div className="section">
+    <div className="section" id="haz-tu-placa">
       <h3 className="title">
         Busca tu canción favorita o al artista del momento, disfruta de tu placa
         y <span className="text-custom-gradient ">escanea el codigo</span>.

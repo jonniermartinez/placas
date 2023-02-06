@@ -9,16 +9,16 @@ export default function Home() {
         <div className="my-1 flex flex-col gap-16 self-center max-md:items-center max-md:gap-8 max-md:text-center md:w-1/2">
           <h1 className="text-4xl font-extrabold md:text-4xl" id="inicio">
             Crea tu propia{" "}
-            <span className="text-custom-gradient">placa de spotify</span> aquí.
+            <span className="text-custom-gradient">placa de Spotify</span> aquí.
             ¡Es muy fácil!
           </h1>
           <p className="normal-text md:w-10/12">
             Dedicale la mejor canción a esa persona tan especial y regala un
-            recuerdo unico. ¡Podrás scanearla para escucharla en Spotify! El
+            recuerdo único. ¡Podrás scanearla para escucharla en Spotify! El
             Regalo Perfecto.
           </p>
-          <a className="button" href="">
-            <p className="button-text">¡Has tu placa YA!</p>
+          <a className="button" href="#haz-tu-placa">
+            <p className="button-text">¡Haz tu placa YA!</p>
           </a>
         </div>
         <img
@@ -41,8 +41,8 @@ export default function Home() {
           <li>🤓 Promociona tu propia canción.</li>
           <li>🚀 Y muchas cosas mas ...</li>
         </ul>
-        <a className="button self-center" href="">
-          <p className="button-text">¡Has tu placa YA mismo!</p>
+        <a className="button self-center" href="#haz-tu-placa">
+          <p className="button-text">¡Haz tu placa YA mismo!</p>
         </a>
       </div>
       <HastuPlaca></HastuPlaca>

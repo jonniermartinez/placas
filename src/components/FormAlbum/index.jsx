@@ -105,7 +105,7 @@ export default function Form() {
           className="input w-full"
         />
       </div>
-	  {/* <button className="button self-center">Descargar img</button> */}
+      <button className="button self-center">Comprar ahora</button>
     </form>
   );
 }
